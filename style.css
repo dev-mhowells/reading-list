@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #e9fff9;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 850px 1fr;
+  margin-top: 30px;
+}
+
+.center {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 0.2fr 0.2fr 1fr;
+  gap: 20px;
+  column-gap: 20px;
+}
+
+h1 {
+  font-family: "Shizuru", cursive;
+  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+}
+
+.user-input {
+  /* border: 1px solid black; */
+}
+
+.blocks-grid {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  justify-items: center;
+}
+
+.summary-blocks {
+  background-color: #cbf3f0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+  border-left: 20px solid #2ec4b6;
+  box-shadow: 0.1em 0.1em 6px 0.5px #424b48;
+  border-radius: 0.5em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 25px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+input {
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+.enter {
+  padding: 8px 20px;
+  border-radius: 0.5em;
+  margin-left: 20px;
+  background-color: #2ec4b6;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+select {
+  padding: 6px 10px;
+  border-radius: 0.5em;
+}
+
+.read-word {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 20px;
+  border-top: 1px solid #2ec4b6;
+}

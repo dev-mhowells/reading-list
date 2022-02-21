@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shizuru&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="center">
+        <h1>Reading List / Record</h1>
+        <div>
+          <div class="user-input">
+            <label for="book-name">Book</label>
+            <input class="book" type="text" name="book-name" id="book-name" />
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author" class="author-name" />
+            <label for="status">Status</label>
+            <select name="status" id="status">
+              <option value="read" selected>Read</option>
+              <option value="unread">Unread</option>
+            </select>
+            <!-- <input type="submit" class="enter" value="Add" /> -->
+            <button class="enter">Add</button>
+          </div>
+
+        <div class="blocks-grid" id="blocks-grid">
+         <!-- <div id="summary-blocks" class="summary-blocks">
+            <p class="display-title">LOTR</p>
+            <p class="display-author">Tolkein</p>
+            <p class="display-status">Read</p>
+          </div> -->
+          <!-- <div id="summary-blocks" class="summary-blocks">
+            <p class="display-title">LOTR</p>
+            <p class="display-author">Tolkein</p>
+            <p class="display-status">Read</p>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
